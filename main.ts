@@ -16,7 +16,7 @@ const answers = await inquirer.prompt([
 console.log(answers);
 
 if(answers.userGuessedNumber === randomNumber) {
-    console.log("congtratulations you guess right number.");
+    console.log("congtratulations you guess right number."); 
 }else {
     console.log("Sorry You guess wrong Number");
 }
